@@ -19,6 +19,16 @@ h1{
     margin-top: 20px;
 }
 
+select{
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.154);
+    padding-left: 30px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
 .new-record input{
     height: 50px;
     width: 17%;

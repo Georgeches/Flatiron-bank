@@ -6,7 +6,7 @@ function ShowRecords(props){
         })
         .then(res=>res.json())
         .then(removedData=>console.log(removedData))
-        e.target.parentNode.parentNode.remove()
+        props.recordsPost(props.allRecords.filter(record=>record.id !== props.id))
     }
 
     return(
